@@ -1,0 +1,176 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libx264 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP750.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/dec_debug/" /Fd"obj/dec_debug/" /FD /GZ /c 
+"C:\x264-060730\decoder\decoder.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP750.tmp" 
+<h3>Output Window</h3>
+Compiling...
+decoder.c
+C:\x264-060730\decoder\macroblock.h(27) : error C2143: syntax error : missing ')' before '*'
+C:\x264-060730\decoder\macroblock.h(27) : error C2081: 'x264_macroblock_t' : name in formal parameter list illegal
+C:\x264-060730\decoder\macroblock.h(27) : error C2143: syntax error : missing '{' before '*'
+C:\x264-060730\decoder\macroblock.h(27) : error C2059: syntax error : ')'
+C:\x264-060730\decoder\macroblock.h(28) : error C2143: syntax error : missing ')' before '*'
+C:\x264-060730\decoder\macroblock.h(28) : error C2081: 'x264_macroblock_t' : name in formal parameter list illegal
+C:\x264-060730\decoder\macroblock.h(28) : error C2143: syntax error : missing '{' before '*'
+C:\x264-060730\decoder\macroblock.h(28) : error C2059: syntax error : ')'
+C:\x264-060730\decoder\macroblock.h(30) : error C2143: syntax error : missing ')' before '*'
+C:\x264-060730\decoder\macroblock.h(30) : error C2081: 'x264_macroblock_t' : name in formal parameter list illegal
+C:\x264-060730\decoder\macroblock.h(30) : error C2143: syntax error : missing '{' before '*'
+C:\x264-060730\decoder\macroblock.h(30) : error C2059: syntax error : ')'
+C:\x264-060730\decoder\macroblock.h(31) : error C2143: syntax error : missing ')' before '*'
+C:\x264-060730\decoder\macroblock.h(31) : error C2081: 'x264_macroblock_t' : name in formal parameter list illegal
+C:\x264-060730\decoder\macroblock.h(31) : error C2143: syntax error : missing '{' before '*'
+C:\x264-060730\decoder\macroblock.h(31) : error C2059: syntax error : ')'
+C:\x264-060730\decoder\decoder.c(51) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(54) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(181) : error C2039: 'i_slice_group_map_type' : is not a member of 'x264_pps_t'
+        ../..\common/set.h(135) : see declaration of 'x264_pps_t'
+C:\x264-060730\decoder\decoder.c(181) : error C2039: 'i_slice_group_map_type' : is not a member of 'x264_pps_t'
+        ../..\common/set.h(135) : see declaration of 'x264_pps_t'
+C:\x264-060730\decoder\decoder.c(195) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(203) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(205) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(207) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(209) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(211) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(342) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(342) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(346) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(346) : error C2198: 'x264_frame_delete' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(348) : error C2172: 'free' : actual parameter is not a pointer : parameter 1
+C:\x264-060730\decoder\decoder.c(351) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(352) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(363) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(364) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(366) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(366) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(368) : warning C4013: 'x264_macroblocks_new' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(368) : error C2115: '=' : incompatible types
+C:\x264-060730\decoder\decoder.c(372) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(373) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(375) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(483) : error C2065: 'x264_mb_context_t' : undeclared identifier
+C:\x264-060730\decoder\decoder.c(483) : error C2146: syntax error : missing ';' before identifier 'context'
+C:\x264-060730\decoder\decoder.c(483) : error C2065: 'context' : undeclared identifier
+C:\x264-060730\decoder\decoder.c(484) : error C2065: 'x264_macroblock_t' : undeclared identifier
+C:\x264-060730\decoder\decoder.c(484) : error C2297: '*' : illegal, right operand has type 'int *'
+C:\x264-060730\decoder\decoder.c(491) : error C2088: '[' : illegal for struct
+C:\x264-060730\decoder\decoder.c(494) : warning C4013: 'x264_macroblock_context_load' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(503) : warning C4013: 'x264_macroblock_read_cabac' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(513) : warning C4013: 'x264_macroblock_decode_skip' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(533) : warning C4013: 'x264_macroblock_read_cavlc' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(538) : error C2223: left of '->i_mb_x' must point to struct/union
+C:\x264-060730\decoder\decoder.c(538) : error C2223: left of '->i_mb_y' must point to struct/union
+C:\x264-060730\decoder\decoder.c(542) : warning C4013: 'x264_macroblock_decode' undefined; assuming extern returning int
+C:\x264-060730\decoder\decoder.c(569) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(570) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(572) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(573) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(577) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(580) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(580) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(582) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(604) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(619) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(620) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(621) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(624) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(624) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'void (__cdecl *[7])(unsigned char *)'
+C:\x264-060730\decoder\decoder.c(624) : warning C4024: 'x264_predict_16x16_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(624) : error C2198: 'x264_predict_16x16_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(625) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(625) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'void (__cdecl *[12])(unsigned char *,unsigned char *)'
+C:\x264-060730\decoder\decoder.c(625) : warning C4024: 'x264_predict_8x8_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(625) : error C2198: 'x264_predict_8x8_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(626) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(626) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'void (__cdecl *[12])(unsigned char *)'
+C:\x264-060730\decoder\decoder.c(626) : warning C4024: 'x264_predict_4x4_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(626) : error C2198: 'x264_predict_4x4_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(628) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(628) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'struct x264_pixel_function_t *'
+C:\x264-060730\decoder\decoder.c(628) : warning C4024: 'x264_pixel_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(628) : error C2198: 'x264_pixel_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(629) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(629) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'struct x264_dct_function_t *'
+C:\x264-060730\decoder\decoder.c(629) : warning C4024: 'x264_dct_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(629) : error C2198: 'x264_dct_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(631) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(631) : error C2115: 'function' : incompatible types
+C:\x264-060730\decoder\decoder.c(631) : warning C4024: 'x264_mc_init' : different types for formal and actual parameter 1
+C:\x264-060730\decoder\decoder.c(631) : error C2198: 'x264_mc_init' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(667) : warning C4028: formal parameter 2 different from declaration
+C:\x264-060730\decoder\decoder.c(667) : warning C4028: formal parameter 3 different from declaration
+C:\x264-060730\decoder\decoder.c(667) : warning C4029: declared formal parameter list different from definition
+C:\x264-060730\decoder\decoder.c(710) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(728) : error C2039: 'cpu' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(728) : error C2198: 'x264_cpu_restore' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(740) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(740) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(744) : error C2039: 'freference' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(744) : error C2198: 'x264_frame_delete' : too few actual parameters
+C:\x264-060730\decoder\decoder.c(746) : error C2172: 'x264_free' : actual parameter is not a pointer : parameter 1
+C:\x264-060730\decoder\decoder.c(769) : error C2039: 'picture' : is not a member of 'x264_t'
+        ../..\common/common.h(262) : see declaration of 'x264_t'
+C:\x264-060730\decoder\decoder.c(769) : error C2198: 'x264_free' : too few actual parameters
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+decoder.obj - 84 error(s), 20 warning(s)
+</pre>
+</body>
+</html>

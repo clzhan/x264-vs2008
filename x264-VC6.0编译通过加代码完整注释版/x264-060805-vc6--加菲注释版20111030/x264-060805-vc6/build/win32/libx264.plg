@@ -1,0 +1,287 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libx264 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1241.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\quant-a.obj "..\..\common\i386\quant-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1241.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1242.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\predict-a.obj "..\..\common\i386\predict-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1242.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1243.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\pixel-sse2.obj "..\..\common\i386\pixel-sse2.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1243.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1244.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\pixel-a.obj "..\..\common\i386\pixel-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1244.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1245.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\mc-a2.obj "..\..\common\i386\mc-a2.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1245.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1246.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\mc-a.obj "..\..\common\i386\mc-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1246.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1247.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\deblock-a.obj "..\..\common\i386\deblock-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1247.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1248.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\dct-a.obj "..\..\common\i386\dct-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1248.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1249.bat" with contents
+[
+@echo off
+nasm -i \x264-060805-vc6\common\i386\ -f win32 -DPREFIX -o .\Release\cpu-a.obj "..\..\common\i386\cpu-a.asm"
+]
+Creating command line "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP1249.bat"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124A.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /GX /O2 /Ob2 /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "NDEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/enc_release/" /Fd"obj/enc_release/" /FD /c 
+"D:\x264-060805-vc6\encoder\analyse.c"
+"D:\x264-060805-vc6\encoder\cabac.c"
+"D:\x264-060805-vc6\encoder\cavlc.c"
+"D:\x264-060805-vc6\encoder\encoder.c"
+"D:\x264-060805-vc6\encoder\eval.c"
+"D:\x264-060805-vc6\encoder\macroblock.c"
+"D:\x264-060805-vc6\encoder\me.c"
+"D:\x264-060805-vc6\encoder\ratecontrol.c"
+"D:\x264-060805-vc6\encoder\set.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124A.tmp" 
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124B.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /GX /O2 /Ob2 /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "NDEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\x264-060805-vc6\common\i386\predict-c.c"
+"D:\x264-060805-vc6\common\csp.c"
+"D:\x264-060805-vc6\common\quant.c"
+"D:\x264-060805-vc6\common\set.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124B.tmp" 
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124C.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /GX /O2 /Ob2 /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "NDEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/core_release/" /Fd"obj/core_release/" /FD /c 
+"D:\x264-060805-vc6\common\cabac.c"
+"D:\x264-060805-vc6\common\common.c"
+"D:\x264-060805-vc6\common\cpu.c"
+"D:\x264-060805-vc6\common\dct.c"
+"D:\x264-060805-vc6\common\frame.c"
+"D:\x264-060805-vc6\common\macroblock.c"
+"D:\x264-060805-vc6\common\i386\mc-c.c"
+"D:\x264-060805-vc6\common\mc.c"
+"D:\x264-060805-vc6\common\mdate.c"
+"D:\x264-060805-vc6\common\pixel.c"
+"D:\x264-060805-vc6\common\predict.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124C.tmp" 
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124D.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /GX /O2 /Ob2 /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "NDEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/util_release/" /Fd"obj/util_release/" /FD /c 
+"D:\x264-060805-vc6\extras\getopt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124D.tmp" 
+Assembly "..\..\common\i386\quant-a.asm"
+..\..\common\i386\quant-a.asm:502: warning: label alone on a line without a colon might be in error
+..\..\common\i386\quant-a.asm:502: warning: label alone on a line without a colon might be in error
+..\..\common\i386\quant-a.asm:503: warning: label alone on a line without a colon might be in error
+..\..\common\i386\quant-a.asm:503: warning: label alone on a line without a colon might be in error
+Assembly "..\..\common\i386\predict-a.asm"
+Assembly "..\..\common\i386\pixel-sse2.asm"
+Assembly "..\..\common\i386\pixel-a.asm"
+Assembly "..\..\common\i386\mc-a2.asm"
+Assembly "..\..\common\i386\mc-a.asm"
+..\..\common\i386\mc-a.asm:100: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:143: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:182: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:222: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:292: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:313: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:362: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:394: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:433: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:479: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:551: warning: label alone on a line without a colon might be in error
+..\..\common\i386\mc-a.asm:594: warning: label alone on a line without a colon might be in error
+Assembly "..\..\common\i386\deblock-a.asm"
+Assembly "..\..\common\i386\dct-a.asm"
+Assembly "..\..\common\i386\cpu-a.asm"
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124E.tmp" with contents
+[
+/nologo /out:"bin/libx264.lib" 
+".\obj\enc_release\analyse.obj"
+".\obj\enc_release\cabac.obj"
+".\obj\enc_release\cavlc.obj"
+".\obj\enc_release\encoder.obj"
+".\obj\enc_release\eval.obj"
+".\obj\enc_release\macroblock.obj"
+".\obj\enc_release\me.obj"
+".\obj\enc_release\ratecontrol.obj"
+".\obj\enc_release\set.obj"
+".\Release\predict-c.obj"
+".\obj\core_release\cabac.obj"
+".\obj\core_release\common.obj"
+".\obj\core_release\cpu.obj"
+".\Release\csp.obj"
+".\obj\core_release\dct.obj"
+".\obj\core_release\frame.obj"
+".\obj\core_release\macroblock.obj"
+".\obj\core_release\mc-c.obj"
+".\obj\core_release\mc.obj"
+".\obj\core_release\mdate.obj"
+".\obj\core_release\pixel.obj"
+".\obj\core_release\predict.obj"
+".\Release\quant.obj"
+".\Release\set.obj"
+".\obj\util_release\getopt.obj"
+".\Release\cpu-a.obj"
+".\Release\dct-a.obj"
+".\Release\deblock-a.obj"
+".\Release\mc-a.obj"
+".\Release\mc-a2.obj"
+".\Release\pixel-a.obj"
+".\Release\pixel-sse2.obj"
+".\Release\predict-a.obj"
+".\Release\quant-a.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP124E.tmp"
+<h3>Output Window</h3>
+Compiling...
+analyse.c
+D:\x264-060805-vc6\encoder\analyse.c(2095) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+cabac.c
+cavlc.c
+encoder.c
+D:\x264-060805-vc6\encoder\encoder.c(617) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\encoder.c(1770) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\encoder.c(1793) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+eval.c
+macroblock.c
+D:\x264-060805-vc6\encoder\macroblock.c(820) : warning C4018: '>' : signed/unsigned mismatch
+D:\x264-060805-vc6\encoder\macroblock.c(831) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+me.c
+D:\x264-060805-vc6\encoder\me.c(861) : warning C4018: '<' : signed/unsigned mismatch
+D:\x264-060805-vc6\encoder\me.c(862) : warning C4018: '<=' : signed/unsigned mismatch
+ratecontrol.c
+D:\x264-060805-vc6\encoder\ratecontrol.c(259) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(302) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(303) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(404) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(451) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(710) : warning C4244: 'initializing' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(714) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(721) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(730) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(817) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(968) : warning C4013: '_finite' undefined; assuming extern returning int
+D:\x264-060805-vc6\encoder\ratecontrol.c(1052) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1087) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1087) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1107) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1117) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1117) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\x264-060805-vc6\encoder\ratecontrol.c(1159) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1159) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1159) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1197) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1199) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1202) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1211) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1213) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1216) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1226) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1232) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1233) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1235) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1235) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1258) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1269) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1274) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1278) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1279) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1286) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1287) : warning C4244: '/=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1300) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1300) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1304) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1308) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1350) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1417) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1484) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1488) : warning C4244: '=' : conversion from 'double ' to 'unsigned __int64 ', possible loss of data
+D:\x264-060805-vc6\encoder\ratecontrol.c(1490) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+set.c
+Generating Code...
+Compiling...
+predict-c.c
+csp.c
+quant.c
+set.c
+Generating Code...
+Compiling...
+cabac.c
+common.c
+D:\x264-060805-vc6\common\common.c(114) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\x264-060805-vc6\common\common.c(120) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\x264-060805-vc6\common\common.c(121) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\x264-060805-vc6\common\common.c(128) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\x264-060805-vc6\common\common.c(524) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(530) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(532) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(534) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(549) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(551) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(553) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\x264-060805-vc6\common\common.c(968) : warning C4018: '!=' : signed/unsigned mismatch
+cpu.c
+dct.c
+frame.c
+macroblock.c
+mc-c.c
+mc.c
+mdate.c
+pixel.c
+D:\x264-060805-vc6\common\pixel.c(357) : warning C4003: not enough actual parameters for macro 'INIT'
+D:\x264-060805-vc6\common\pixel.c(358) : warning C4003: not enough actual parameters for macro 'INIT'
+D:\x264-060805-vc6\common\pixel.c(359) : warning C4003: not enough actual parameters for macro 'INIT'
+D:\x264-060805-vc6\common\pixel.c(360) : warning C4003: not enough actual parameters for macro 'INIT'
+D:\x264-060805-vc6\common\pixel.c(361) : warning C4003: not enough actual parameters for macro 'INIT'
+predict.c
+Generating Code...
+Compiling...
+getopt.c
+D:\x264-060805-vc6\extras\getopt.c(395) : warning C4090: '=' : different 'const' qualifiers
+D:\x264-060805-vc6\extras\getopt.c(393) : warning C4101: 'ti' : unreferenced local variable
+Creating library...
+
+
+
+<h3>Results</h3>
+libx264.lib - 0 error(s), 90 warning(s)
+</pre>
+</body>
+</html>

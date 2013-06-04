@@ -1,0 +1,328 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libx264 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9C.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\quant-a.obj "..\..\common\i386\quant-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9C.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9D.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\predict-a.obj "..\..\common\i386\predict-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9D.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9E.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\pixel-sse2.obj "..\..\common\i386\pixel-sse2.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9E.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9F.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\pixel-a.obj "..\..\common\i386\pixel-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSP9F.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA0.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\mc-a2.obj "..\..\common\i386\mc-a2.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA0.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA1.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\mc-a.obj "..\..\common\i386\mc-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA1.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA2.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\deblock-a.obj "..\..\common\i386\deblock-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA2.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA3.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\dct-a.obj "..\..\common\i386\dct-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA3.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA4.bat" with contents
+[
+@echo off
+nasm -i \x264-060730\common\i386\ -f win32 -DPREFIX -o .\Debug\cpu-a.obj "..\..\common\i386\cpu-a.asm"
+]
+Creating command line "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA4.bat"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/enc_debug/" /Fd"obj/enc_debug/" /FD /GZ /c 
+"C:\x264-060730\encoder\analyse.c"
+"C:\x264-060730\encoder\cabac.c"
+"C:\x264-060730\encoder\cavlc.c"
+"C:\x264-060730\encoder\encoder.c"
+"C:\x264-060730\encoder\eval.c"
+"C:\x264-060730\encoder\macroblock.c"
+"C:\x264-060730\encoder\me.c"
+"C:\x264-060730\encoder\ratecontrol.c"
+"C:\x264-060730\encoder\set.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA5.tmp" 
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\x264-060730\common\i386\predict-c.c"
+"C:\x264-060730\common\csp.c"
+"C:\x264-060730\common\quant.c"
+"C:\x264-060730\common\set.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA6.tmp" 
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/core_debug/" /Fd"obj/core_debug/" /FD /GZ /c 
+"C:\x264-060730\common\cabac.c"
+"C:\x264-060730\common\common.c"
+"C:\x264-060730\common\cpu.c"
+"C:\x264-060730\common\dct.c"
+"C:\x264-060730\common\frame.c"
+"C:\x264-060730\common\macroblock.c"
+"C:\x264-060730\common\i386\mc-c.c"
+"C:\x264-060730\common\mc.c"
+"C:\x264-060730\common\mdate.c"
+"C:\x264-060730\common\pixel.c"
+"C:\x264-060730\common\predict.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA7.tmp" 
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_LIB" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "ARCH_X86" /D "HAVE_STDINT_H" /Fo"obj/util_debug/" /Fd"obj/util_debug/" /FD /GZ /c 
+"C:\x264-060730\extras\getopt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA8.tmp" 
+Assembly "..\..\common\i386\quant-a.asm"
+Assembly "..\..\common\i386\predict-a.asm"
+Assembly "..\..\common\i386\pixel-sse2.asm"
+Assembly "..\..\common\i386\pixel-a.asm"
+Assembly "..\..\common\i386\mc-a2.asm"
+Assembly "..\..\common\i386\mc-a.asm"
+Assembly "..\..\common\i386\deblock-a.asm"
+Assembly "..\..\common\i386\dct-a.asm"
+Assembly "..\..\common\i386\cpu-a.asm"
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /out:"bin/libx264.lib" 
+".\obj\enc_debug\analyse.obj"
+".\obj\enc_debug\cabac.obj"
+".\obj\enc_debug\cavlc.obj"
+".\obj\enc_debug\encoder.obj"
+".\obj\enc_debug\eval.obj"
+".\obj\enc_debug\macroblock.obj"
+".\obj\enc_debug\me.obj"
+".\obj\enc_debug\ratecontrol.obj"
+".\obj\enc_debug\set.obj"
+".\Debug\predict-c.obj"
+".\obj\core_debug\cabac.obj"
+".\obj\core_debug\common.obj"
+".\obj\core_debug\cpu.obj"
+".\Debug\csp.obj"
+".\obj\core_debug\dct.obj"
+".\obj\core_debug\frame.obj"
+".\obj\core_debug\macroblock.obj"
+".\obj\core_debug\mc-c.obj"
+".\obj\core_debug\mc.obj"
+".\obj\core_debug\mdate.obj"
+".\obj\core_debug\pixel.obj"
+".\obj\core_debug\predict.obj"
+".\Debug\quant.obj"
+".\Debug\set.obj"
+".\obj\util_debug\getopt.obj"
+".\Debug\cpu-a.obj"
+".\Debug\dct-a.obj"
+".\Debug\deblock-a.obj"
+".\Debug\mc-a.obj"
+".\Debug\mc-a2.obj"
+".\Debug\pixel-a.obj"
+".\Debug\pixel-sse2.obj"
+".\Debug\predict-a.obj"
+".\Debug\quant-a.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPA9.tmp"
+<h3>Output Window</h3>
+Compiling...
+analyse.c
+C:\x264-060730\encoder\analyse.c(1951) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+cabac.c
+cavlc.c
+encoder.c
+C:\x264-060730\encoder\encoder.c(530) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\encoder.c(1403) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\encoder.c(1426) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+eval.c
+macroblock.c
+C:\x264-060730\encoder\macroblock.c(809) : warning C4018: '>' : signed/unsigned mismatch
+C:\x264-060730\encoder\macroblock.c(820) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+me.c
+C:\x264-060730\encoder\me.c(847) : warning C4018: '<' : signed/unsigned mismatch
+C:\x264-060730\encoder\me.c(848) : warning C4018: '<=' : signed/unsigned mismatch
+ratecontrol.c
+C:\x264-060730\encoder\ratecontrol.c(240) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(282) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(283) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(384) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(431) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(688) : warning C4244: 'initializing' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(692) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(699) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(708) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(792) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(943) : warning C4013: '_finite' undefined; assuming extern returning int
+C:\x264-060730\encoder\ratecontrol.c(1027) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1060) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1060) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1080) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1090) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1090) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+C:\x264-060730\encoder\ratecontrol.c(1132) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1132) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1132) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1170) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1172) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1175) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1184) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1186) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1189) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1199) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1205) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1206) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1208) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1208) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1231) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1242) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1247) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1251) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1252) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1259) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1260) : warning C4244: '/=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1261) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1267) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1268) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1281) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1281) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1282) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1323) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1390) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1457) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1461) : warning C4244: '=' : conversion from 'double ' to 'unsigned __int64 ', possible loss of data
+C:\x264-060730\encoder\ratecontrol.c(1463) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+set.c
+Generating Code...
+Compiling...
+predict-c.c
+csp.c
+quant.c
+set.c
+Generating Code...
+Compiling...
+cabac.c
+common.c
+C:\x264-060730\common\common.c(88) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\x264-060730\common\common.c(94) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\x264-060730\common\common.c(95) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\x264-060730\common\common.c(102) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\x264-060730\common\common.c(439) : warning C4018: '!=' : signed/unsigned mismatch
+cpu.c
+dct.c
+frame.c
+macroblock.c
+mc-c.c
+mc.c
+mdate.c
+pixel.c
+C:\x264-060730\common\pixel.c(341) : warning C4003: not enough actual parameters for macro 'INIT'
+C:\x264-060730\common\pixel.c(342) : warning C4003: not enough actual parameters for macro 'INIT'
+C:\x264-060730\common\pixel.c(343) : warning C4003: not enough actual parameters for macro 'INIT'
+C:\x264-060730\common\pixel.c(344) : warning C4003: not enough actual parameters for macro 'INIT'
+C:\x264-060730\common\pixel.c(345) : warning C4003: not enough actual parameters for macro 'INIT'
+predict.c
+Generating Code...
+Compiling...
+getopt.c
+Creating library...
+<h3>
+--------------------Configuration: x264 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "../../common" /I "../../encode" /I "../../decode" /I "../../extras" /I "../.." /D "_DEBUG" /D "_CONSOLE" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "HAVE_STDINT_H" /Fp"obj/x264_Debug/x264.pch" /YX /Fo"obj/x264_Debug/" /Fd"obj/x264_Debug/" /FD /GZ /c 
+"C:\x264-060730\matroska.c"
+"C:\x264-060730\muxers.c"
+"C:\x264-060730\x264.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPAA.tmp" 
+Creating temporary file "C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"obj/x264_Debug/x264.pdb" /debug /machine:I386 /out:"bin/x264.exe" /pdbtype:sept 
+".\obj\x264_Debug\matroska.obj"
+".\obj\x264_Debug\muxers.obj"
+".\obj\x264_Debug\x264.obj"
+".\bin\libx264.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\JESSES~1\LOCALS~1\Temp\RSPAB.tmp"
+<h3>Output Window</h3>
+Compiling...
+matroska.c
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(238) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(250) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(301) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(459) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+C:\x264-060730\matroska.c(460) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+muxers.c
+C:\x264-060730\muxers.c(91) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'long ', possible loss of data
+C:\x264-060730\muxers.c(269) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'long ', possible loss of data
+C:\x264-060730\muxers.c(274) : warning C4018: '!=' : signed/unsigned mismatch
+x264.c
+C:\x264-060730\x264.c(755) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(764) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(767) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(770) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(795) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(798) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(801) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\x264-060730\x264.c(1187) : warning C4244: 'initializing' : conversion from '__int64 ' to 'int ', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+x264.exe - 0 error(s), 104 warning(s)
+</pre>
+</body>
+</html>

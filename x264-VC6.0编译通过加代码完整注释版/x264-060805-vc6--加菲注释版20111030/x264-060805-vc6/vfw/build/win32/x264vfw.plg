@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: x264vfw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP58F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../../extras" /I "../../.." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VFW_EXPORTS" /FR"obj/Debug/" /Fp"obj/Debug/x264vfw.pch" /YX /Fo"obj/Debug/" /Fd"obj/Debug/" /FD /GZ /c 
+"D:\x264-060805-vc6\vfw\codec.c"
+"D:\x264-060805-vc6\vfw\config.c"
+"D:\x264-060805-vc6\vfw\driverproc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP58F.tmp" 
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP590.tmp" with contents
+[
+winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"obj/Debug/x264vfw.pdb" /debug /machine:I386 /def:"..\..\driverproc.def" /out:"bin/x264vfw.dll" /implib:"obj/Debug/x264vfw.lib" /pdbtype:sept 
+".\obj\Debug\codec.obj"
+".\obj\Debug\config.obj"
+".\obj\Debug\driverproc.obj"
+".\obj\Debug\resource.res"
+"..\..\..\build\win32\bin\libx264.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP590.tmp"
+<h3>Output Window</h3>
+Compiling...
+codec.c
+config.c
+driverproc.c
+Linking...
+   Creating library obj/Debug/x264vfw.lib and object obj/Debug/x264vfw.exp
+
+
+
+<h3>Results</h3>
+x264vfw.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: x264 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP382.tmp" with contents
+[
+/nologo /MTd /W3 /GX /O2 /I "./common" /I "./encode" /I "./decode" /I "../../extras" /I "../.." /D "NDEBUG" /D "_CONSOLE" /D "WIN32" /D "_MBCS" /D "__X264__" /D "HAVE_MMXEXT" /D "HAVE_STDINT_H" /Fp"obj/x264_Release/x264.pch" /YX /Fo"obj/x264_Release/" /Fd"obj/x264_Release/" /FD /c 
+"D:\x264-060805-vc6\x264.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP382.tmp" 
+Creating temporary file "C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP383.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"obj/x264_Release/x264.pdb" /machine:I386 /out:"bin/x264.exe" 
+".\obj\x264_Release\matroska.obj"
+".\obj\x264_Release\muxers.obj"
+".\obj\x264_Release\x264.obj"
+".\bin\libx264.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\JiaFei\LOCALS~1\Temp\RSP383.tmp"
+<h3>Output Window</h3>
+Compiling...
+x264.c
+D:\x264-060805-vc6\x264.c(1052) : warning C4010: single-line comment contains line-continuation character
+D:\x264-060805-vc6\x264.c(1085) : warning C4244: 'initializing' : conversion from '__int64 ' to 'int ', possible loss of data
+D:\x264-060805-vc6\x264.c(1008) : warning C4101: 'i_frame_size' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+x264.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
